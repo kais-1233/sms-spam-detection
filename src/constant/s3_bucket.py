@@ -1,2 +1,2 @@
-TRAINING_BUCKET_NAME = "spamham-detector-model"
-PREDICTION_BUCKET_NAME = "spamham-detector-model"
+TRAINING_BUCKET_NAME = "spam-ham-model"
+PREDICTION_BUCKET_NAME = "spam-ham-model"

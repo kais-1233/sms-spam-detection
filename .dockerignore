@@ -9,3 +9,4 @@ saved_models
 venv
 docs
 notebooks
+.env
