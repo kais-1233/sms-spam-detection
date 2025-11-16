@@ -81,7 +81,7 @@ Step 6. Train application
 
 ```bash
 
-http://localhost:5000/train
+http://localhost:8000/train
 
 ```
 
@@ -89,7 +89,7 @@ Step 7. Prediction application
 
 ```bash
 
-http://localhost:5000/predict
+http://localhost:8000/predict
 
 ```
 
@@ -108,7 +108,7 @@ docker build --build-arg AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID> --build-arg AWS_S
 
 ```
 
-docker run -d -p 5000:5000 <IMAGE_NAME>
+docker run -d -p 8000:8000 <IMAGE_NAME>
 
 ```
 
@@ -143,4 +143,4 @@ From these above models after hyperparameter optimization one model is going to 
 
 - This Project can be used in real-life by Users.
 
-Author - Hrisikesh Neogi
+Author - Kais Khan
